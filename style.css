@@ -1,0 +1,90 @@
+/* ภารกิจที่ 2: จัดสไตล์ <body> */
+body {
+  background: linear-gradient(135deg, #fdf2e9, #e8eaf6, #fce4ec);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #444;
+}
+
+/* ส่วนหัวเว็บไซต์ */
+header {
+  text-align: center;
+  padding: 35px 15px 15px;
+}
+
+header h1 {
+  color: #555;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ภารกิจที่ 3: จัดสไตล์ .card */
+.card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px rgba(100, 100, 120, 0.15);
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* เอฟเฟกต์เมื่อเลื่อนเมาส์ */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(100, 100, 120, 0.22);
+}
+
+/* ภารกิจที่ 4: จัดสไตล์รูปภาพ <img> */
+.card img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 15px rgba(245, 76, 76, 0.2);
+  object-fit: cover;
+}
+
+/* ภารกิจที่ 5: จัดสไตล์ชื่อ #profile-name */
+#profile-name {
+  color: #444;
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+/* ภารกิจที่ 6: จัดสไตล์ .bio */
+.bio {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* หัวข้อสิ่งที่กำลังเรียน */
+.card h3 {
+  color: #666;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+/* ภารกิจที่ 7: จัดสไตล์ <ul> */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+  color: #777;
+  font-size: 14px;
+}
